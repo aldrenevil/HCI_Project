@@ -1,0 +1,114 @@
+body, ul, li, p, a, label, input, div {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px !important;
+  font-weight: 300;
+}
+.h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 48px !important;
+  font-weight: 200 !important;
+}
+.h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px !important;
+  font-weight: 300;
+}
+.h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px !important;
+}
+/*General*/
+.logo { font-weight: 500 !important;}
+.text-warning {  color: #f5a581 !important;}
+.text-muted { color: #bcbcbc !important;}
+.text-success { color: #b95628 !important;}
+.text-light { color: #cfd6e1 !important;}
+.bg-dark { background-color: #212934 !important;}
+.bg-light { background-color: #e9eef5 !important;}
+.bg-black { background-color: #000000 !important;}
+.bg-success { background-color: #b95628 !important;}
+.btn-success {
+  background-color: #b95628 !important;
+  border-color: #b95628 !important;
+}
+.pagination .page-link:hover, .pagination .page-link.active {
+  background-color: #b95628;
+  color: #fff;
+}
+/*Nav*/
+#maverick_nav_top { min-height: 30px;}
+#maverick_nav_top * { font-size: .95em !important;}
+#maverick_main_nav a { color: #212934;}
+#maverick_main_nav a:hover { color: #b95628;}
+#maverick_main_nav .navbar .nav-icon { margin-right: 20px;}
+
+/*Hero Carousel*/
+#maverick-hero-carousel { background: #efefef !important;}
+
+/*Product*/
+.product-wap { box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.10);}
+
+.card.product-wap .product-overlay {
+  background: rgba(0,0,0,.2);
+  visibility: hidden;
+  opacity: 0;
+  transition: .3s;
+}
+.card.product-wap:hover .product-overlay {
+  visibility: visible;
+  opacity: 1;
+}
+.card.product-wap a { color: #000;}
+
+/*Product Lines*/
+.line-img{
+  filter: grayscale(100%);
+  opacity: 0.5;
+  transition: .5s;
+}
+.line-img:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+/*CarouselHero*/
+#maverick-hero-carousel .carousel-indicators li {
+  margin-top: -50px;
+  background-color: #b95628;
+}
+#maverick-hero-carousel .carousel-control-next i,
+#maverick-hero-carousel .carousel-control-prev i {
+  color: #b95628 !important;
+  font-size: 2.8em !important;
+}
+.services-icon-wap {transition: .3s;}
+.services-icon-wap:hover, .services-icon-wap:hover i {color: #fff;}
+.services-icon-wap:hover {background: #b95628;}
+.list-services{
+  list-style: none;
+  padding-left: 30px;
+}
+.list-schedule{
+  list-style: none;
+  padding-left:0;
+}
+.img-fluid.same-height {
+  height: 80px;
+}
+.product-wap .h3, .product-wap li, .product-wap i, .product-wap p {
+  font-size: 12px !important;
+}
+/*Small devices*/
+@media (min-width: 576px) {
+  .maverick-carousel .h1 { font-size: 1em !important;}
+}
+/*Medium devices*/
+@media (min-width: 768px) {
+  #maverick_main_nav .navbar-nav {max-width: 450px;}
+ }
+
+/*Large devices*/
+@media (min-width: 992px) {
+  #maverick_main_nav .navbar-nav {max-width: 550px;}
+  #maverick-hero-carousel .carousel-item {min-height: 30rem !important;}
+  .product-wap .h3, .product-wap li, .product-wap i, .product-wap p {font-size: 18px !important;}
+}
